@@ -19,8 +19,9 @@ body {
 body {
   padding: 150px;
   font: 20px Helvetica, sans-serif;
-  width: 700px;
+  width: 650px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 h1 {
