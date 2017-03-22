@@ -17,11 +17,10 @@ body {
 }
 
 body {
-  padding: 150px;
   font: 20px Helvetica, sans-serif;
   width: 650px;
   color: #FFFFFF;
-  text-align: center;
+  text-align: left;
 }
 
 h1 {
@@ -31,7 +30,6 @@ h1 {
 div {
   display: block;
   text-align: left;
-  margin: 0 auto;
 }
 
 a {
