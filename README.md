@@ -1,0 +1,2 @@
+# staymagical
+staymagical.net
