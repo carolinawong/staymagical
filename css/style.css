@@ -7,3 +7,7 @@ body {
   background-image: linear-gradient(to bottom right, #FFFFFF 0%, #99D2EF 100%);
 }
 
+h1 {
+  font-weight: bold;
+  font-family: Helvetica, Sans-serif;
+}
