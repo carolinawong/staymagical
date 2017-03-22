@@ -19,7 +19,7 @@ body {
 body {
   padding: 150px;
   font: 20px Helvetica, sans-serif;
-  color: #333;
+  color: #FFFFFF;
 }
 
 h1 {
@@ -34,11 +34,11 @@ article {
 }
 
 a {
-  color: #dc8100;
+  color: #45CDFF;
   text-decoration: none;
 }
 
 a:hover {
-  color: #333;
+  color: #FFFFFF;
   text-decoration: none;
 }
