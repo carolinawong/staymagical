@@ -18,9 +18,12 @@ body {
 
 body {
   font: 20px Helvetica, sans-serif;
-  /*width: 650px;*/
+  width: 650px;
   color: #FFFFFF;
   text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 h1 {
