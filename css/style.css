@@ -1,5 +1,5 @@
 html {
-  height: 100%;
+  min-height: 100%
 }
 
 body {
@@ -7,7 +7,6 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-attachment: fixed
   background-size: cover;
   background: #99D2EF;
   background-repeat: no-repeat;
