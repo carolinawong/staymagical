@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url(/images/background.jpg);
+  background-image: url('https://raw.githubusercontent.com/carolinawong/staymagical/gh-pages/images/background.jpg');
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
