@@ -1,9 +1,5 @@
-html {
-  height: 100%
-}
-
 body {
-  background-image: url(https://raw.githubusercontent.com/carolinawong/staymagical/gh-pages/images/background.jpg);
+  background-image: url(/images/background.jpg);
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -40,6 +36,7 @@ div {
   opacity:.70;
   display: table-cell;
   vertical-align: middle;
+    border-radius: 10px;
 
 }
 
