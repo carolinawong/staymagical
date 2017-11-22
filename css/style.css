@@ -1,51 +1,304 @@
 body {
-  background-image: url(/images/background.jpg);
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  cover;
-  background-color: #999;
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman';
 }
 
-body {
-  font: 20px Helvetica, sans-serif;
-  color: black;
+p {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman';
+	color: grey;
+	font-size: 14px;
 }
 
-h1 {
-  font-size: 40px;
+.header {
+    position:relative;
+    height: 250px;
+    margin: 0px;
+    background-color: LightBlue;
 }
 
-div {
-  text-align: left;
-  width: 650px;
-  height: 200px;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding:  20px;
-  background-color: white;
-  -khtml-opacity:.70; 
-  -moz-opacity:.70; 
-  -ms-filter:”alpha(opacity=70)”;
-  filter:alpha(opacity=70);
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.7);
-  opacity:.70;
-  display: table-cell;
-  vertical-align: middle;
-    border-radius: 10px;
+.logo {
+	display: block;
+    width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
 
+/*MENU*/
+
+.navbar {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.navbar .navbar-nav {
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.nav li {
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+}
+
+@media screen and (max-width:600px){
+	.nav li {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}	
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background: none;
+}
+
+ul>li>a {
+	font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman';
+	color: grey;
+	font-size: 9pt;
+	/*letter-spacing: 1pt; */
+}
+
+ul>li>a:hover {
+	color: LightBlue;
+}
+
+div.Hero-Home {
+   width:100%;
+   height:500px;
+   background-image:url('../img/Hero-Home.jpg');
+   background-size: cover;
+   margin-bottom: 20px;
+}
+
+div.Hero-About {
+   width:100%;
+   height:500px;
+   background-image:url('../img/Hero-About.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 20px;
+}
+
+div.Hero-Featured {
+   width:100%;
+   height:500px;
+   background-image:url('../img/Hero-Featured.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 20px;
+}
+
+div.Hero-Services {
+   width:100%;
+   height:500px;
+   background-image:url('../img/Hero-Services.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 20px;
+}
+
+div.Hero-Contact {
+   width:100%;
+   height:500px;
+   background-image:url('../img/Hero-Contact.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 20px;
+}
+
+hr.style-menu {
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+hr.style-footer {
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0px;
+    margin:20px 0px 20px 0px;
 }
 
 a {
-  color: skyblue;
-  text-decoration: none;
+	color: LightBlue;
 }
 
 a:hover {
-  color: black;
-  text-decoration: none;
+	color: grey;
+	text-decoration: none;
+}
+
+/*FOOTER*/
+
+.fa-facebook:hover {
+	color: LightBlue;
+}
+
+.fa-instagram:hover {
+	color: LightBlue;
+}
+
+.fa-twitter:hover {
+	color: LightBlue;
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+.text-align-center {
+	text-align: center;
+	color: grey;
+}
+
+.icon-center {
+	color: grey;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+}
+
+
+/*INDEX PAGE*/
+
+.left-photo-index {
+/*	background-color: red;
+*/	display: inline-block;
+	width: 450px;
+	height: 200px;
+	margin-top: 0px;
+	float: left;
+	background: url('../img/Home_1.jpg') no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.right-text-index {
+	display: inline-block;
+	/*background-color: blue;*/
+	float: right;
+	width: calc(100% - 470px);
+}
+
+.right-photo-index {
+	background-color: red;
+	display: inline-block;
+	width: 450px;
+	height: 200px;
+	margin-top: 0px;
+	float: right;
+	background: url('../img/Home_2.jpg') no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.left-text-index {
+	display: inline-block;
+	/*background-color: blue;*/
+	float: left;
+	width: calc(100% - 470px);
+}
+
+/*ABOUT PAGE*/
+
+.bio-photo {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	margin-top: 0px;
+	float: left;
+	background: url('../img/bio-photo.jpg');
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.right-text-bio {
+	display: inline-block;
+	/*background-color: blue;*/
+	float: right;
+	width: calc(100% - 320px);
+}
+
+/*GALLERY*/
+
+.gallery-img {
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+/*FEATURED*/
+
+.feature-img {
+	width: 100%;
+}
+
+/*SERVICES*/
+
+.service-img {
+	width: 100%;
+}
+
+.left-photo-services {
+/*	background-color: red;
+*/	display: inline-block;
+	width: 450px;
+	height: 200px;
+	margin-top: 0px;
+	float: left;
+	background: url('../img/Home_7.jpg') no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.right-text-services {
+	display: inline-block;
+	/*background-color: blue;*/
+	float: right;
+	width: calc(100% - 470px);
+}
+
+/*CONTACT*/
+
+.left-photo-contact {
+/*	background-color: red;
+*/	display: inline-block;
+	width: 450px;
+	height: 300px;
+	margin-top: 0px;
+	float: left;
+	background: url('../img/Home_8.jpg') no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+
+.right-text-contact {
+	display: inline-block;
+	/*background-color: blue;*/
+	float: right;
+	width: calc(100% - 470px);
 }
